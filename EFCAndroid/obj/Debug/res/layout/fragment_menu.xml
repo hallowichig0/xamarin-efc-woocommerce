@@ -1,0 +1,26 @@
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" xmlns:android="http://schemas.android.com/apk/res/android"><LinearLayout android:id="@+id/content_frame_menu" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"><!--
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+            <ViewFlipper
+                android:id="@+id/viewFlipper"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/cheese_1"
+                    android:scaleType="centerCrop" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/cheese_2"
+                    android:scaleType="centerCrop" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/cheese_3"
+                    android:scaleType="centerCrop" />
+            </ViewFlipper>
+        </LinearLayout>
+        --><RelativeLayout android:layout_width="match_parent" android:layout_height="300dp" android:visibility="visible" android:layout_marginBottom="0.0dp"><android.support.v4.view.ViewPager android:id="@+id/viewPager_Main" android:layout_width="match_parent" android:layout_height="400dp" android:layout_weight="1" /><md58cee93f1b4eb376b18eb85f9d1cbc478.CirclePageIndicator android:id="@+id/indicator_main" android:layout_width="match_parent" android:layout_height="20dp" android:padding="10dp" android:background="@android:color/transparent" android:layout_alignParentBottom="true" android:layout_marginBottom="15dp" /></RelativeLayout><TextView android:text="Our Regular Menu" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:gravity="center" android:id="@+id/textView1" android:textStyle="italic" android:textSize="25dp" /><GridView android:id="@+id/grid_view_image_text" android:layout_width="match_parent" android:layout_height="match_parent" android:columnWidth="110dp" android:gravity="center" android:numColumns="2" android:layout_marginTop="0.0dp" /><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_gravity="center" /></LinearLayout></ScrollView>

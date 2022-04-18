@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent">
+            <ListView
+                android:id="@+id/listview1"
+                android:layout_height="match_parent"
+                android:layout_width="110dp"
+                android:layout_gravity="start"
+                android:choiceMode="singleChoice"
+                android:divider="#818181"
+                android:dividerHeight="1dp"
+                android:background="#E3F2FD" />
+            <FrameLayout
+                android:id="@+id/content_frame_category"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0.0dp"
+                android:layout_toRightOf="@id/listview1" />
+        </RelativeLayout>
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>

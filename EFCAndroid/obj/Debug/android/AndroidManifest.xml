@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="EFCAndroid.EFCAndroid" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="21" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <application android:allowBackup="true" android:label="@string/app_name" android:icon="@drawable/icon" android:name="android.app.Application" android:debuggable="true">
+    <activity android:label="Activity_myaccount" android:theme="@style/Theme.DesignDemo" android:name="md5d77ad5e99fefe95ae2e95738b2dc2f41.Activity_myaccount" />
+    <activity android:label="Activity_cart" android:theme="@style/Theme.DesignDemo" android:name="md5d77ad5e99fefe95ae2e95738b2dc2f41.Activity_cart" />
+    <activity android:label="Activity_checkout" android:theme="@style/Theme.DesignDemo" android:name="md5d77ad5e99fefe95ae2e95738b2dc2f41.Activity_checkout" />
+    <activity android:label="Activity_menu" android:theme="@style/Theme.DesignDemo" android:name="md5d77ad5e99fefe95ae2e95738b2dc2f41.Activity_menu" />
+    <activity android:label="index" android:theme="@style/Theme.DesignDemo" android:name="md5d77ad5e99fefe95ae2e95738b2dc2f41.index" />
+    <activity android:label="EarthFashionCafe" android:theme="@style/Theme.DesignDemo" android:name="md5d77ad5e99fefe95ae2e95738b2dc2f41.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="Activity_EFC_ARROZ_CUBANA_GARLIC_MUSHROOM_SPINACH" android:theme="@style/Theme.DesignDemo" android:name="md5c55cf8a9e311ec5fceda3a936ee6d51e.Activity_EFC_ARROZ_CUBANA_GARLIC_MUSHROOM_SPINACH" />
+    <activity android:label="Activity_EFC_BALSAMIC_BEEF_ONION_CONFIT_SERVED" android:theme="@style/Theme.DesignDemo" android:name="md5c55cf8a9e311ec5fceda3a936ee6d51e.Activity_EFC_BALSAMIC_BEEF_ONION_CONFIT_SERVED" />
+    <activity android:label="Activity_EFC_BARBECUE_CAULIFLOWER_MASHED_POTATO" android:theme="@style/Theme.DesignDemo" android:name="md5c55cf8a9e311ec5fceda3a936ee6d51e.Activity_EFC_BARBECUE_CAULIFLOWER_MASHED_POTATO" />
+    <activity android:label="Activity_EFC_BEEF_CAPSICUM_PESTO_MASHED_KUMARA" android:theme="@style/Theme.DesignDemo" android:name="md5c55cf8a9e311ec5fceda3a936ee6d51e.Activity_EFC_BEEF_CAPSICUM_PESTO_MASHED_KUMARA" />
+    <activity android:label="Activity_EFC_BEEF_CURRY" android:theme="@style/Theme.DesignDemo" android:name="md5c55cf8a9e311ec5fceda3a936ee6d51e.Activity_EFC_BEEF_CURRY" />
+    <activity android:label="Activity_EFC_BEEF_TERIYAKI" android:theme="@style/Theme.DesignDemo" android:name="md5c55cf8a9e311ec5fceda3a936ee6d51e.Activity_EFC_BEEF_TERIYAKI" />
+    <activity android:label="Activity_EFC_CHEESY_COLD_PASTA" android:theme="@style/Theme.DesignDemo" android:name="md5c55cf8a9e311ec5fceda3a936ee6d51e.Activity_EFC_CHEESY_COLD_PASTA" />
+    <activity android:label="Activity_EFC_CHICKEN_CARAMELIZED_APPLE_POTATO_WEDGES" android:theme="@style/Theme.DesignDemo" android:name="md5c55cf8a9e311ec5fceda3a936ee6d51e.Activity_EFC_CHICKEN_CARAMELIZED_APPLE_POTATO_WEDGES" />
+    <activity android:label="Activity_EFC_CHICKEN_CURRY" android:theme="@style/Theme.DesignDemo" android:name="md5c55cf8a9e311ec5fceda3a936ee6d51e.Activity_EFC_CHICKEN_CURRY" />
+    <activity android:label="Activity_EFC_CHICKEN_GRATIN_VEGETABLES" android:theme="@style/Theme.DesignDemo" android:name="md5c55cf8a9e311ec5fceda3a936ee6d51e.Activity_EFC_CHICKEN_GRATIN_VEGETABLES" />
+    <activity android:label="Activity_EFC_CHICKEN_PITA" android:theme="@style/Theme.DesignDemo" android:name="md5c55cf8a9e311ec5fceda3a936ee6d51e.Activity_EFC_CHICKEN_PITA" />
+    <activity android:label="Activity_EFC_CHICKEN_TERIYAKI" android:theme="@style/Theme.DesignDemo" android:name="md5c55cf8a9e311ec5fceda3a936ee6d51e.Activity_EFC_CHICKEN_TERIYAKI" />
+    <activity android:label="Activity_EFC_CHICKEN_TIKKA_PAN_GRILL_BANANA" android:theme="@style/Theme.DesignDemo" android:name="md5c55cf8a9e311ec5fceda3a936ee6d51e.Activity_EFC_CHICKEN_TIKKA_PAN_GRILL_BANANA" />
+    <activity android:label="Activity_EFC_CHIMICHURRI_FISH_RICE_MIX_GREENS" android:theme="@style/Theme.DesignDemo" android:name="md5c55cf8a9e311ec5fceda3a936ee6d51e.Activity_EFC_CHIMICHURRI_FISH_RICE_MIX_GREENS" />
+    <activity android:label="Activity_EFC_CREAMY_VEGAN_PENNE" android:theme="@style/Theme.DesignDemo" android:name="md5c55cf8a9e311ec5fceda3a936ee6d51e.Activity_EFC_CREAMY_VEGAN_PENNE" />
+    <activity android:label="Activity_EFC_DILL_PESTO_TUNA" android:theme="@style/Theme.DesignDemo" android:name="md5c55cf8a9e311ec5fceda3a936ee6d51e.Activity_EFC_DILL_PESTO_TUNA" />
+    <activity android:label="Activity_EFC_FUNKY_FRUIT_SALAD" android:theme="@style/Theme.DesignDemo" android:name="md5c55cf8a9e311ec5fceda3a936ee6d51e.Activity_EFC_FUNKY_FRUIT_SALAD" />
+    <activity android:label="Activity_EFC_GINGER_FISH_DRIZZLED_WASABI_BROWN" android:theme="@style/Theme.DesignDemo" android:name="md5c55cf8a9e311ec5fceda3a936ee6d51e.Activity_EFC_GINGER_FISH_DRIZZLED_WASABI_BROWN" />
+    <activity android:label="Activity_EFC_GRILLED_BEEF_MOZZARELLA_CHEESE" android:theme="@style/Theme.DesignDemo" android:name="md5c55cf8a9e311ec5fceda3a936ee6d51e.Activity_EFC_GRILLED_BEEF_MOZZARELLA_CHEESE" />
+    <activity android:label="Activity_EFC_GRILLED_VEGGIE_SANDWICH" android:theme="@style/Theme.DesignDemo" android:name="md5c55cf8a9e311ec5fceda3a936ee6d51e.Activity_EFC_GRILLED_VEGGIE_SANDWICH" />
+    <activity android:label="Activity_EFC_LOMEIN_PROMAVERA_PASTA" android:theme="@style/Theme.DesignDemo" android:name="md5c55cf8a9e311ec5fceda3a936ee6d51e.Activity_EFC_LOMEIN_PROMAVERA_PASTA" />
+    <activity android:label="Activity_EFC_MEDITERESIAN_CHICKEN_SALAD" android:theme="@style/Theme.DesignDemo" android:name="md5c55cf8a9e311ec5fceda3a936ee6d51e.Activity_EFC_MEDITERESIAN_CHICKEN_SALAD" />
+    <activity android:label="Activity_EFC_MINT_BEEF_SALSA" android:theme="@style/Theme.DesignDemo" android:name="md5c55cf8a9e311ec5fceda3a936ee6d51e.Activity_EFC_MINT_BEEF_SALSA" />
+    <activity android:label="Activity_EFC_MUSTARD_BEEF_CUTLETS_BASIL_MASHED" android:theme="@style/Theme.DesignDemo" android:name="md5c55cf8a9e311ec5fceda3a936ee6d51e.Activity_EFC_MUSTARD_BEEF_CUTLETS_BASIL_MASHED" />
+    <activity android:label="Activity_EFC_PESTO_PASTA_CHICKEN_BREAST" android:theme="@style/Theme.DesignDemo" android:name="md5c55cf8a9e311ec5fceda3a936ee6d51e.Activity_EFC_PESTO_PASTA_CHICKEN_BREAST" />
+    <activity android:label="Activity_EFC_ROASTED_CHICKEN_FUNKY_SALAD" android:theme="@style/Theme.DesignDemo" android:name="md5c55cf8a9e311ec5fceda3a936ee6d51e.Activity_EFC_ROASTED_CHICKEN_FUNKY_SALAD" />
+    <activity android:label="Activity_EFC_ROASTED_SQUASH_TOFU_PUMPKIN_PUREE" android:theme="@style/Theme.DesignDemo" android:name="md5c55cf8a9e311ec5fceda3a936ee6d51e.Activity_EFC_ROASTED_SQUASH_TOFU_PUMPKIN_PUREE" />
+    <activity android:label="Activity_EFC_ROSEMARY_CHICKEN_BREAST_PASTA_MIX" android:theme="@style/Theme.DesignDemo" android:name="md5c55cf8a9e311ec5fceda3a936ee6d51e.Activity_EFC_ROSEMARY_CHICKEN_BREAST_PASTA_MIX" />
+    <activity android:label="Activity_EFC_SALAD_NICOISE" android:theme="@style/Theme.DesignDemo" android:name="md5c55cf8a9e311ec5fceda3a936ee6d51e.Activity_EFC_SALAD_NICOISE" />
+    <activity android:label="Activity_EFC_SEAFOOD_MARINA" android:theme="@style/Theme.DesignDemo" android:name="md5c55cf8a9e311ec5fceda3a936ee6d51e.Activity_EFC_SEAFOOD_MARINA" />
+    <activity android:label="Activity_EFC_TOFU_STEAK_MUSHROOM" android:theme="@style/Theme.DesignDemo" android:name="md5c55cf8a9e311ec5fceda3a936ee6d51e.Activity_EFC_TOFU_STEAK_MUSHROOM" />
+    <activity android:label="Activity_EFC_YOGURT_SALMON_SUNDRIED_TOMATO" android:theme="@style/Theme.DesignDemo" android:name="md5c55cf8a9e311ec5fceda3a936ee6d51e.Activity_EFC_YOGURT_SALMON_SUNDRIED_TOMATO" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="EFCAndroid.EFCAndroid.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.EFCAndroid.EFCAndroid" />
+      </intent-filter>
+    </receiver>
+  </application>
+</manifest>
